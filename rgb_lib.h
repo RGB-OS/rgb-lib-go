@@ -585,17 +585,17 @@ RustBuffer uniffi_rgblibuniffi_fn_method_wallet_go_online(void* ptr, int8_t skip
 #endif
 #ifndef UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_ISSUE_ASSET_CFA
 #define UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_ISSUE_ASSET_CFA
-RustBuffer uniffi_rgblibuniffi_fn_method_wallet_issue_asset_cfa(void* ptr, RustBuffer online, RustBuffer name, RustBuffer details, uint8_t precision, RustBuffer amounts, RustBuffer file_path, RustCallStatus *out_status
+RustBuffer uniffi_rgblibuniffi_fn_method_wallet_issue_asset_cfa(void* ptr, RustBuffer name, RustBuffer details, uint8_t precision, RustBuffer amounts, RustBuffer file_path, RustCallStatus *out_status
 );
 #endif
 #ifndef UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_ISSUE_ASSET_NIA
 #define UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_ISSUE_ASSET_NIA
-RustBuffer uniffi_rgblibuniffi_fn_method_wallet_issue_asset_nia(void* ptr, RustBuffer online, RustBuffer ticker, RustBuffer name, uint8_t precision, RustBuffer amounts, RustCallStatus *out_status
+RustBuffer uniffi_rgblibuniffi_fn_method_wallet_issue_asset_nia(void* ptr, RustBuffer ticker, RustBuffer name, uint8_t precision, RustBuffer amounts, RustCallStatus *out_status
 );
 #endif
 #ifndef UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_ISSUE_ASSET_UDA
 #define UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_ISSUE_ASSET_UDA
-RustBuffer uniffi_rgblibuniffi_fn_method_wallet_issue_asset_uda(void* ptr, RustBuffer online, RustBuffer ticker, RustBuffer name, RustBuffer details, uint8_t precision, RustBuffer media_file_path, RustBuffer attachments_file_paths, RustCallStatus *out_status
+RustBuffer uniffi_rgblibuniffi_fn_method_wallet_issue_asset_uda(void* ptr, RustBuffer ticker, RustBuffer name, RustBuffer details, uint8_t precision, RustBuffer media_file_path, RustBuffer attachments_file_paths, RustCallStatus *out_status
 );
 #endif
 #ifndef UNIFFI_FFIDEF_UNIFFI_RGBLIBUNIFFI_FN_METHOD_WALLET_LIST_ASSETS
