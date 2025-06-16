@@ -14,7 +14,8 @@ func main() {
 		DataDir:               "./data",
 		BitcoinNetwork:        rgb_lib.BitcoinNetworkRegtest,                                                                                     // or .Mainnet, .Testnet
 		DatabaseType:          rgb_lib.DatabaseTypeSqlite,                                                                                        // or .Postgres
-		Pubkey:                "tpubDDYnz6z5aG8k73T9Vg2Lmj5F1R4tdwPFjoBgeccJrQzDr44kgwdjqc3ghFpJu86Ksyj85aobCb1ffB6i4FrsnRSRm7RKatwdJ9HdK5zRrRZ", // your extended pubkey string
+		AccountXpubVanilla:    "tpubDDYnz6z5aG8k73T9Vg2Lmj5F1R4tdwPFjoBgeccJrQzDr44kgwdjqc3ghFpJu86Ksyj85aobCb1ffB6i4FrsnRSRm7RKatwdJ9HdK5zRrRZ", // your extended pubkey string
+		AccountXpubColored:    "tpubDDYnz6z5aG8k73T9Vg2Lmj5F1R4tdwPFjoBgeccJrQzDr44kgwdjqc3ghFpJu86Ksyj85aobCb1ffB6i4FrsnRSRm7RKatwdJ9HdK5zRrRZ", // your extended pubkey string
 		Mnemonic:              &mnemonic,
 		MaxAllocationsPerUtxo: 1,
 		VanillaKeychain:       &keychain, // use appropriate key string
