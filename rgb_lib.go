@@ -340,7 +340,7 @@ func init() {
 
 func uniffiCheckChecksums() {
 	// Get the bindings contract version from our ComponentInterface
-	bindingsContractVersion := 26
+	bindingsContractVersion := 29
 	// Get the scaffolding contract version by calling the into the dylib
 	scaffoldingContractVersion := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint32_t {
 		return C.ffi_rgblibuniffi_uniffi_contract_version()
@@ -758,7 +758,7 @@ func uniffiCheckChecksums() {
 		checksum := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint16_t {
 			return C.uniffi_rgblibuniffi_checksum_constructor_address_new()
 		})
-		if checksum != 59809 {
+		if checksum != 14676 {
 			// If this happens try cleaning and rebuilding your project
 			panic("rgb_lib: uniffi_rgblibuniffi_checksum_constructor_address_new: UniFFI API checksum mismatch")
 		}
@@ -767,7 +767,7 @@ func uniffiCheckChecksums() {
 		checksum := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint16_t {
 			return C.uniffi_rgblibuniffi_checksum_constructor_invoice_from_invoice_data()
 		})
-		if checksum != 55197 {
+		if checksum != 50849 {
 			// If this happens try cleaning and rebuilding your project
 			panic("rgb_lib: uniffi_rgblibuniffi_checksum_constructor_invoice_from_invoice_data: UniFFI API checksum mismatch")
 		}
@@ -776,7 +776,7 @@ func uniffiCheckChecksums() {
 		checksum := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint16_t {
 			return C.uniffi_rgblibuniffi_checksum_constructor_invoice_new()
 		})
-		if checksum != 37528 {
+		if checksum != 33585 {
 			// If this happens try cleaning and rebuilding your project
 			panic("rgb_lib: uniffi_rgblibuniffi_checksum_constructor_invoice_new: UniFFI API checksum mismatch")
 		}
@@ -785,7 +785,7 @@ func uniffiCheckChecksums() {
 		checksum := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint16_t {
 			return C.uniffi_rgblibuniffi_checksum_constructor_recipientinfo_new()
 		})
-		if checksum != 13462 {
+		if checksum != 56664 {
 			// If this happens try cleaning and rebuilding your project
 			panic("rgb_lib: uniffi_rgblibuniffi_checksum_constructor_recipientinfo_new: UniFFI API checksum mismatch")
 		}
@@ -794,7 +794,7 @@ func uniffiCheckChecksums() {
 		checksum := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint16_t {
 			return C.uniffi_rgblibuniffi_checksum_constructor_transportendpoint_new()
 		})
-		if checksum != 59385 {
+		if checksum != 38802 {
 			// If this happens try cleaning and rebuilding your project
 			panic("rgb_lib: uniffi_rgblibuniffi_checksum_constructor_transportendpoint_new: UniFFI API checksum mismatch")
 		}
@@ -803,7 +803,7 @@ func uniffiCheckChecksums() {
 		checksum := rustCall(func(_uniffiStatus *C.RustCallStatus) C.uint16_t {
 			return C.uniffi_rgblibuniffi_checksum_constructor_wallet_new()
 		})
-		if checksum != 49006 {
+		if checksum != 29566 {
 			// If this happens try cleaning and rebuilding your project
 			panic("rgb_lib: uniffi_rgblibuniffi_checksum_constructor_wallet_new: UniFFI API checksum mismatch")
 		}
