@@ -1,7 +1,8 @@
 package rgb_lib
 
 /*
-#cgo LDFLAGS: -lrgblibuniffi -L${SRCDIR}/lib -Wl,-rpath,${SRCDIR}/lib
+#cgo darwin LDFLAGS: -lrgblibuniffi -L${SRCDIR}/lib -Wl,-rpath,${SRCDIR}/lib
+#cgo linux  LDFLAGS: -lrgblibuniffi -L${SRCDIR}/lib -Wl,-rpath,\$ORIGIN/lib
 */
 // #include <rgb_lib.h>
 import "C"
