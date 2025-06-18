@@ -68,6 +68,3 @@ git tag v0.3.5
 git push origin v0.3.5
 ```
 
-## 📄 License
-
-MIT
